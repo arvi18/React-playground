@@ -33,3 +33,4 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+react-props/node_modules/
