@@ -2,9 +2,9 @@ import React from "react";
 import bday from "../images/bday.jpg";
 
 const CardContact=(props)=>{
-    const { name, email}=props.listItem;
+    const { name, email}=props.contacts;
     return <div className="item">
-    <img className="ui avatar image" src={bday} />
+    <img className="ui avatar image" alt="img" src={bday} />
     <div className="content">
         <div className="header">{name}</div>
         <div>{email}</div>
