@@ -2,7 +2,6 @@ import React from "react";
 import bday from "../images/bday.jpg";
 
 const CardContact=(props)=>{
-    console.log('contactCard: props:', props)
     const { name, email}=props.contact;
     return <div className="item">
     <img className="ui avatar image" alt="img" src={bday} />
